@@ -7,17 +7,17 @@ def welcome():
 
 #This will be the menu for what type of groceries people need 
 def main(choice):
-    print("What do you want to choose?")
+    choice = int(input('What do you want to choose?'))
     #list of choices 
     match choice:
         case 1:
-               return "Groceries for week"
+               print("Groceries for week")
         case 2: 
-              return "Writing someone else's groceries"
+              print("Writing someone else's groceries")
         case 3: 
-               return "Template grocery for all cases"
+                print("Template grocery for all cases")
         case _:
-               return "Something is off.  Try again"
+               print("Incorrect input.  Try again")
 
 
 
