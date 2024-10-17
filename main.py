@@ -1,6 +1,5 @@
-import food as p
-import furniture as f
-import appliances as a 
+#getting the checkout file 
+import checkout as ck
 
 def welcome():
     print("\t====== Hello =====")
